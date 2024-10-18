@@ -1,0 +1,427 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+*[class*="col-"]{
+    padding: 0 15px;
+}
+
+.container{
+    max-width: 1320px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-item{
+    align-items: center;
+}
+
+.justify-content{
+    justify-content: space-between;
+}
+
+.gap-6{
+    gap: 6px;
+}
+
+.gap-20{
+    gap: 20px;
+}
+
+.gap-30{
+    gap: 30px;
+}
+
+.gap-35{
+    gap: 35px;
+}
+
+.main-header{
+    padding: 20px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 4;
+    background: rgba( 255, 255, 255, 0.3 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.menus ul li a{
+    font-size: 16px;
+    color: #0A102FCC;
+    font-weight: 600;
+}
+
+.login ul li a{
+    font-size: 16px;
+    color: #0A102FCC;
+    font-weight: 900;
+}
+
+.signup-btn{
+    padding: 0.75rem 2rem;
+    font-size: 16px;
+    color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 50px;
+    background-color: #3147FF;
+    border: 2px solid #3147FF;
+    position: relative;
+    transition: all 0.6s linear;
+    overflow: hidden;
+}
+
+.signup-btn:hover{
+    background-color: white;
+    color: #3147FF;
+}
+
+/* Main Banner */
+.main-banner{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+    background-color: #faf9f5;
+}
+
+.main-title{
+    position: relative;
+    z-index: 2;
+}
+
+.main-title h1{
+    font-size: 80px;
+    font-weight: 900;
+    font-family: 'Plus Jakarta Sans';
+    color: #0A102F;
+    margin-bottom: 24px;
+}
+
+.main-title p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 32px;
+    color: #0A102FCC;
+}
+
+.input-email{
+    padding: 5px 0;
+    padding-left: 20px;
+    border-radius: 50px;
+    max-width: 430px;
+    border: 1px solid black;
+    justify-content: space-around;
+    margin-bottom: 32px;
+}
+
+.mail{
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.subscribe-btn{
+    border: none;
+    padding: 12px 32px;
+    border-radius: 50px;
+    background-color: #3147FF;
+    color: white;
+    border: 2px solid #3147FF;
+    transition: all 0.3s linear;
+    font-size: 16px;
+    font-weight: 800;
+    margin-right: -7px;
+}
+
+.subscribe-btn:hover{
+    background-color: white;
+    color: #3147FF;
+}
+
+.main-title span{
+    font-size: 16px;
+    color: #7d8090cc;
+}
+
+.main-title span i{
+    font-size: 16px;
+    color: #3147FF;
+    margin-right: 10px;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+}
+
+.play{
+    position: relative;
+    z-index: 2;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.play:hover i{
+    transform: scale(1.1);
+}
+
+.play i{
+    color: #3147FF;
+    font-size: 30px;
+    transition: all 0.2s linear;
+}
+
+.background-img .background-img1{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.background-img .background-img2{
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.brands{
+    padding: 100px 0;
+}
+
+.brands-heading{
+    margin-bottom: 80px;
+}
+
+.brands-heading p{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #75798A;
+}
+
+.horizontal-line{
+    height: 1px;
+    width: 100%;
+    background-color: #0A102F;
+    opacity: 0.1;
+}
+
+.corses{
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.corses h2{
+    font-size: 42px;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 80px;
+}
+
+.branding{
+    padding: 40px;
+    border: 2px solid #EDEDED;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+    background-color: white;
+}
+
+.branding:hover {
+    background-color: #FBFAF6;
+}
+
+.branding img{
+    filter:brightness(0);
+    transition: all 0.2s linear;
+}
+
+.branding:hover .branding-img img{
+   filter: none;
+}
+
+.branding:hover .branding-link a {
+    color: #3147FF;
+}
+
+.branding:hover .branding-link span {
+    color: #3147FF;
+    transform: translateX(5px);
+}
+
+.branding-info h3{
+    font-size: 22px;
+    margin-bottom: 16px;
+}
+
+.branding-info p{
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.branding-link a{
+    font-size: 16px;
+    font-weight: 900;
+    color: black;
+    transition: all 0.2s linear;
+}
+
+.branding-link span {
+    transition: all 0.2s linear;
+}
+
+.branding-link span i{
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.yellow-back{
+    position: relative;
+}
+
+.yellow-back img{
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.degital-marketing{
+    background-color: #FAF9F5;
+}
+
+.promotion {
+    padding: 120px 0;
+}
+
+.promotion-heading h2{
+    font-size: 48px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 900;
+}
+
+.promotion-heading p{
+    margin-top: 30px;
+    color: #0A102FCC;
+    font-size: 19px;
+}
+
+.promotion-img {
+    padding: 50px;  
+}
+
+.promotion-img img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.promotion-img-info{
+    position: relative;
+    background-color: #fcedcf;
+    border-radius: 10px;
+}
+
+.design-icon{
+    position: absolute;
+    top: -50px;
+    right: -60px;
+}
+
+.strategy {
+    padding-bottom: 120px;
+}
+
+.strategy-heading h2{
+    font-size: 48px;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.strategy-heading p{
+    margin-top: 25px;
+    color: #0A102FCC;
+    font-size: 19px;
+}
+
+.strategy-heading p span{
+    color: #0A102F;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.strategy-heading p span i{
+    color: #3147FF;
+    font-size: 19px;
+    margin-right: 10px;
+}
+
+.strategy-img {
+    padding: 50px;  
+}
+
+.strategy-img img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.strategy-img-info{
+    position: relative;
+    background-color: #BEF8FC;
+    border-radius: 10px;
+}
+
+.design-icon2{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
